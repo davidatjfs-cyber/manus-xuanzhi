@@ -14,7 +14,7 @@ COPY package.json pnpm-lock.yaml ./
 
 # 安装依赖
 FROM base AS deps
-RUN --mount=type=cache,id=manus-xuanzhi-pnpm,target=/pnpm/store pnpm install --frozen-lockfile
+RUN --mount=type=cache,id=s/manus-xuanzhi-pnpm-store,target=/pnpm/store pnpm install --frozen-lockfile
 
 # 构建项目
 FROM deps AS build
