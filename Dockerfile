@@ -11,6 +11,7 @@ WORKDIR /app
 
 # 复制依赖文件
 COPY package.json pnpm-lock.yaml ./
+COPY patches ./patches
 
 # 安装依赖
 FROM base AS deps
