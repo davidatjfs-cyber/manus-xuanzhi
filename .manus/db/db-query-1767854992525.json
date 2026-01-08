@@ -1,0 +1,9 @@
+{
+  "query": "ALTER TABLE siteEvaluations \nADD COLUMN IF NOT EXISTS dataScore INT,\nADD COLUMN IF NOT EXISTS surveyScore INT,\nADD COLUMN IF NOT EXISTS financialScore INT,\nADD COLUMN IF NOT EXISTS estimatedMonthlyRevenue INT,\nADD COLUMN IF NOT EXISTS estimatedInvestment INT,\nADD COLUMN IF NOT EXISTS paybackPeriod INT,\nADD COLUMN IF NOT EXISTS monthlyProfit INT,\nADD COLUMN IF NOT EXISTS roi DECIMAL(5,2);",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user jmfhm3KhXk6pePc.root --database ZEG8tp4QEgsAkRCZUPFbeL --execute ALTER TABLE siteEvaluations \nADD COLUMN IF NOT EXISTS dataScore INT,\nADD COLUMN IF NOT EXISTS surveyScore INT,\nADD COLUMN IF NOT EXISTS financialScore INT,\nADD COLUMN IF NOT EXISTS estimatedMonthlyRevenue INT,\nADD COLUMN IF NOT EXISTS estimatedInvestment INT,\nADD COLUMN IF NOT EXISTS paybackPeriod INT,\nADD COLUMN IF NOT EXISTS monthlyProfit INT,\nADD COLUMN IF NOT EXISTS roi DECIMAL(5,2);",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 3094
+}

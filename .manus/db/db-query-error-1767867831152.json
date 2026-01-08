@@ -1,0 +1,8 @@
+{
+  "query": "SELECT id, restaurantName, address, totalScore FROM siteEvaluations WHERE restaurantName LIKE '%马己仙%' OR address LIKE '%iapm%' ORDER BY id DESC LIMIT 5;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user jmfhm3KhXk6pePc.root --database ZEG8tp4QEgsAkRCZUPFbeL --execute SELECT id, restaurantName, address, totalScore FROM siteEvaluations WHERE restaurantName LIKE '%马己仙%' OR address LIKE '%iapm%' ORDER BY id DESC LIMIT 5;",
+  "returncode": 1,
+  "logs": [
+    "ERROR 1054 (42S22) at line 1: Unknown column 'restaurantname' in 'where clause'"
+  ]
+}

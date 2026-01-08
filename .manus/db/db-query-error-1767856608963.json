@@ -1,0 +1,8 @@
+{
+  "query": "ALTER TABLE financialCalculations \nADD COLUMN estimatedMonthlyRevenue INT DEFAULT NULL,\nADD COLUMN estimatedInvestment INT DEFAULT NULL,\nADD COLUMN decorationCost INT DEFAULT NULL,\nADD COLUMN equipmentCost INT DEFAULT NULL,\nADD COLUMN initialInventory INT DEFAULT NULL,\nADD COLUMN deposit INT DEFAULT NULL,\nADD COLUMN otherInvestment INT DEFAULT NULL,\nADD COLUMN dailyBreakEven DECIMAL(12,2) DEFAULT NULL,\nADD COLUMN dailyTurnover DECIMAL(5,2) DEFAULT NULL,\nADD COLUMN industryAvgTurnover DECIMAL(5,2) DEFAULT NULL,\nADD COLUMN riskLevel VARCHAR(32) DEFAULT NULL,\nADD COLUMN monthlyProfit INT DEFAULT NULL,\nADD COLUMN paybackPeriod INT DEFAULT NULL,\nADD COLUMN annualROI DECIMAL(5,2) DEFAULT NULL;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user jmfhm3KhXk6pePc.root --database ZEG8tp4QEgsAkRCZUPFbeL --execute ALTER TABLE financialCalculations \nADD COLUMN estimatedMonthlyRevenue INT DEFAULT NULL,\nADD COLUMN estimatedInvestment INT DEFAULT NULL,\nADD COLUMN decorationCost INT DEFAULT NULL,\nADD COLUMN equipmentCost INT DEFAULT NULL,\nADD COLUMN initialInventory INT DEFAULT NULL,\nADD COLUMN deposit INT DEFAULT NULL,\nADD COLUMN otherInvestment INT DEFAULT NULL,\nADD COLUMN dailyBreakEven DECIMAL(12,2) DEFAULT NULL,\nADD COLUMN dailyTurnover DECIMAL(5,2) DEFAULT NULL,\nADD COLUMN industryAvgTurnover DECIMAL(5,2) DEFAULT NULL,\nADD COLUMN riskLevel VARCHAR(32) DEFAULT NULL,\nADD COLUMN monthlyProfit INT DEFAULT NULL,\nADD COLUMN paybackPeriod INT DEFAULT NULL,\nADD COLUMN annualROI DECIMAL(5,2) DEFAULT NULL;",
+  "returncode": 1,
+  "logs": [
+    "ERROR 1060 (42S21) at line 1: Duplicate column name 'dailyBreakEven'"
+  ]
+}

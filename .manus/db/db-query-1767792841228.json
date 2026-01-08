@@ -1,0 +1,9 @@
+{
+  "query": "ALTER TABLE siteEvaluations \nADD COLUMN IF NOT EXISTS brandBName VARCHAR(128),\nADD COLUMN IF NOT EXISTS brandBMonLunch INT,\nADD COLUMN IF NOT EXISTS brandBMonDinner INT,\nADD COLUMN IF NOT EXISTS brandBFriLunch INT,\nADD COLUMN IF NOT EXISTS brandBFriDinner INT,\nADD COLUMN IF NOT EXISTS brandBSatLunch INT,\nADD COLUMN IF NOT EXISTS brandBSatDinner INT",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user jmfhm3KhXk6pePc.root --database ZEG8tp4QEgsAkRCZUPFbeL --execute ALTER TABLE siteEvaluations \nADD COLUMN IF NOT EXISTS brandBName VARCHAR(128),\nADD COLUMN IF NOT EXISTS brandBMonLunch INT,\nADD COLUMN IF NOT EXISTS brandBMonDinner INT,\nADD COLUMN IF NOT EXISTS brandBFriLunch INT,\nADD COLUMN IF NOT EXISTS brandBFriDinner INT,\nADD COLUMN IF NOT EXISTS brandBSatLunch INT,\nADD COLUMN IF NOT EXISTS brandBSatDinner INT",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 2483
+}

@@ -1,0 +1,196 @@
+{
+  "query": "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'siteEvaluations' ORDER BY ORDINAL_POSITION;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user jmfhm3KhXk6pePc.root --database ZEG8tp4QEgsAkRCZUPFbeL --execute SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'siteEvaluations' ORDER BY ORDINAL_POSITION;",
+  "rows": [
+    {
+      "COLUMN_NAME": "id"
+    },
+    {
+      "COLUMN_NAME": "userId"
+    },
+    {
+      "COLUMN_NAME": "restaurantId"
+    },
+    {
+      "COLUMN_NAME": "address"
+    },
+    {
+      "COLUMN_NAME": "latitude"
+    },
+    {
+      "COLUMN_NAME": "longitude"
+    },
+    {
+      "COLUMN_NAME": "area"
+    },
+    {
+      "COLUMN_NAME": "monthlyRent"
+    },
+    {
+      "COLUMN_NAME": "isMainCorridor"
+    },
+    {
+      "COLUMN_NAME": "storefrontWidth"
+    },
+    {
+      "COLUMN_NAME": "hasStairs"
+    },
+    {
+      "COLUMN_NAME": "hasDeepAlley"
+    },
+    {
+      "COLUMN_NAME": "surroundingDesc"
+    },
+    {
+      "COLUMN_NAME": "population1km"
+    },
+    {
+      "COLUMN_NAME": "population3km"
+    },
+    {
+      "COLUMN_NAME": "officeBuildings"
+    },
+    {
+      "COLUMN_NAME": "estimatedWorkstations"
+    },
+    {
+      "COLUMN_NAME": "parkingSpots"
+    },
+    {
+      "COLUMN_NAME": "ageGroup"
+    },
+    {
+      "COLUMN_NAME": "consumptionLevel"
+    },
+    {
+      "COLUMN_NAME": "trafficScore"
+    },
+    {
+      "COLUMN_NAME": "locationScore"
+    },
+    {
+      "COLUMN_NAME": "customerMatchScore"
+    },
+    {
+      "COLUMN_NAME": "heatScore"
+    },
+    {
+      "COLUMN_NAME": "costScore"
+    },
+    {
+      "COLUMN_NAME": "competitionScore"
+    },
+    {
+      "COLUMN_NAME": "totalScore"
+    },
+    {
+      "COLUMN_NAME": "recommendation"
+    },
+    {
+      "COLUMN_NAME": "llmAnalysis"
+    },
+    {
+      "COLUMN_NAME": "breakEvenRevenue"
+    },
+    {
+      "COLUMN_NAME": "breakEvenTurnover"
+    },
+    {
+      "COLUMN_NAME": "financialRisk"
+    },
+    {
+      "COLUMN_NAME": "createdAt"
+    },
+    {
+      "COLUMN_NAME": "updatedAt"
+    },
+    {
+      "COLUMN_NAME": "hasSameCategory"
+    },
+    {
+      "COLUMN_NAME": "nearbyRestaurant1"
+    },
+    {
+      "COLUMN_NAME": "nearbyRestaurant2"
+    },
+    {
+      "COLUMN_NAME": "nearbyRestaurant3"
+    },
+    {
+      "COLUMN_NAME": "occupancyMonday"
+    },
+    {
+      "COLUMN_NAME": "occupancyFriday"
+    },
+    {
+      "COLUMN_NAME": "occupancySaturday"
+    },
+    {
+      "COLUMN_NAME": "brandAName"
+    },
+    {
+      "COLUMN_NAME": "brandAMonLunch"
+    },
+    {
+      "COLUMN_NAME": "brandAMonDinner"
+    },
+    {
+      "COLUMN_NAME": "brandAFriLunch"
+    },
+    {
+      "COLUMN_NAME": "brandAFriDinner"
+    },
+    {
+      "COLUMN_NAME": "brandASatLunch"
+    },
+    {
+      "COLUMN_NAME": "brandASatDinner"
+    },
+    {
+      "COLUMN_NAME": "brandBName"
+    },
+    {
+      "COLUMN_NAME": "brandBMonLunch"
+    },
+    {
+      "COLUMN_NAME": "brandBMonDinner"
+    },
+    {
+      "COLUMN_NAME": "brandBFriLunch"
+    },
+    {
+      "COLUMN_NAME": "brandBFriDinner"
+    },
+    {
+      "COLUMN_NAME": "brandBSatLunch"
+    },
+    {
+      "COLUMN_NAME": "brandBSatDinner"
+    },
+    {
+      "COLUMN_NAME": "brandCName"
+    },
+    {
+      "COLUMN_NAME": "brandCMonLunch"
+    },
+    {
+      "COLUMN_NAME": "brandCMonDinner"
+    },
+    {
+      "COLUMN_NAME": "brandCFriLunch"
+    },
+    {
+      "COLUMN_NAME": "brandCFriDinner"
+    },
+    {
+      "COLUMN_NAME": "brandCSatLunch"
+    },
+    {
+      "COLUMN_NAME": "brandCSatDinner"
+    }
+  ],
+  "messages": [],
+  "stdout": "COLUMN_NAME\nid\nuserId\nrestaurantId\naddress\nlatitude\nlongitude\narea\nmonthlyRent\nisMainCorridor\nstorefrontWidth\nhasStairs\nhasDeepAlley\nsurroundingDesc\npopulation1km\npopulation3km\nofficeBuildings\nestimatedWorkstations\nparkingSpots\nageGroup\nconsumptionLevel\ntrafficScore\nlocationScore\ncustomerMatchScore\nheatScore\ncostScore\ncompetitionScore\ntotalScore\nrecommendation\nllmAnalysis\nbreakEvenRevenue\nbreakEvenTurnover\nfinancialRisk\ncreatedAt\nupdatedAt\nhasSameCategory\nnearbyRestaurant1\nnearbyRestaurant2\nnearbyRestaurant3\noccupancyMonday\noccupancyFriday\noccupancySaturday\nbrandAName\nbrandAMonLunch\nbrandAMonDinner\nbrandAFriLunch\nbrandAFriDinner\nbrandASatLunch\nbrandASatDinner\nbrandBName\nbrandBMonLunch\nbrandBMonDinner\nbrandBFriLunch\nbrandBFriDinner\nbrandBSatLunch\nbrandBSatDinner\nbrandCName\nbrandCMonLunch\nbrandCMonDinner\nbrandCFriLunch\nbrandCFriDinner\nbrandCSatLunch\nbrandCSatDinner\n",
+  "stderr": "",
+  "execution_time_ms": 359
+}

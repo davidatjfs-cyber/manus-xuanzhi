@@ -1,0 +1,28 @@
+{
+  "query": "SHOW TABLES;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user jmfhm3KhXk6pePc.root --database ZEG8tp4QEgsAkRCZUPFbeL --execute SHOW TABLES;",
+  "rows": [
+    {
+      "Tables_in_ZEG8tp4QEgsAkRCZUPFbeL": "__drizzle_migrations"
+    },
+    {
+      "Tables_in_ZEG8tp4QEgsAkRCZUPFbeL": "financialCalculations"
+    },
+    {
+      "Tables_in_ZEG8tp4QEgsAkRCZUPFbeL": "restaurants"
+    },
+    {
+      "Tables_in_ZEG8tp4QEgsAkRCZUPFbeL": "scoringConfigs"
+    },
+    {
+      "Tables_in_ZEG8tp4QEgsAkRCZUPFbeL": "siteEvaluations"
+    },
+    {
+      "Tables_in_ZEG8tp4QEgsAkRCZUPFbeL": "users"
+    }
+  ],
+  "messages": [],
+  "stdout": "Tables_in_ZEG8tp4QEgsAkRCZUPFbeL\n__drizzle_migrations\nfinancialCalculations\nrestaurants\nscoringConfigs\nsiteEvaluations\nusers\n",
+  "stderr": "",
+  "execution_time_ms": 386
+}

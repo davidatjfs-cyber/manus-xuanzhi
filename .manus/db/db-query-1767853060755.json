@@ -1,0 +1,28 @@
+{
+  "query": "SHOW CREATE TABLE restaurants;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user jmfhm3KhXk6pePc.root --database ZEG8tp4QEgsAkRCZUPFbeL --execute SHOW CREATE TABLE restaurants;",
+  "rows": [
+    {
+      "Table": "restaurants",
+      "Create Table": "CREATE TABLE `restaurants` ("
+    }
+  ],
+  "messages": [
+    "  `id` int(11) NOT NULL AUTO_INCREMENT,",
+    "  `userId` int(11) NOT NULL,",
+    "  `name` varchar(255) NOT NULL,",
+    "  `type` varchar(64) NOT NULL,",
+    "  `priceRangeMin` int(11) NOT NULL,",
+    "  `priceRangeMax` int(11) NOT NULL,",
+    "  `targetCustomer` varchar(64) NOT NULL,",
+    "  `scale` varchar(64) NOT NULL,",
+    "  `businessModel` varchar(64) NOT NULL,",
+    "  `createdAt` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,",
+    "  `updatedAt` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,",
+    "  PRIMARY KEY (`id`) /*T![clustered_index] CLUSTERED */",
+    ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin AUTO_INCREMENT=30001"
+  ],
+  "stdout": "Table\tCreate Table\nrestaurants\tCREATE TABLE `restaurants` (\n  `id` int(11) NOT NULL AUTO_INCREMENT,\n  `userId` int(11) NOT NULL,\n  `name` varchar(255) NOT NULL,\n  `type` varchar(64) NOT NULL,\n  `priceRangeMin` int(11) NOT NULL,\n  `priceRangeMax` int(11) NOT NULL,\n  `targetCustomer` varchar(64) NOT NULL,\n  `scale` varchar(64) NOT NULL,\n  `businessModel` varchar(64) NOT NULL,\n  `createdAt` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,\n  `updatedAt` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,\n  PRIMARY KEY (`id`) /*T![clustered_index] CLUSTERED */\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin AUTO_INCREMENT=30001\n",
+  "stderr": "",
+  "execution_time_ms": 391
+}
